@@ -13,9 +13,8 @@ dbname = Name of destination psql database
 
 #By default, the last lines of code will run the convert folder and convert file methods, scroll to the end and remove or comment whichever you don't want.
 
-#converts each csv file in the parameter separately into its own Postgres table, assigning columns and column types (integer or varchar)
+#The following method converts each csv file in the parameter separately into its own Postgres table, assigning columns and column types (integer or varchar)
 #assumes the csv starts with an ID column meant to be the primary key.
-
 def createtables(newpath,filename, dbname):
     conn = psycopg2.connect(host=host, database=database, user=user, password=password)
     cursor = conn.cursor()
