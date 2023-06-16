@@ -3,6 +3,7 @@ Converts a csv file or group of files to a postgres/psql database.
 
 ## REQUIREMENTS
 If you have all of the following requirements, any or all of the 3 .py scripts should work right away.
+
 The psycopg2 package must be installed. (Easily done with PIP)
 Postgres must be installed and running.
 Obviously, you'll need at least one csv file as a source and a blank postgres database as a destination.
