@@ -1,4 +1,4 @@
-# csv2psqlConverter 1.0
+# CSV2POSTGRES Converter 1.0
 Converts a csv file or group of files to a postgres/psql database.
 
 ## REQUIREMENTS
